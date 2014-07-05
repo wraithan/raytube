@@ -1,0 +1,32 @@
+{
+  "name": "raytube",
+  "version": "0.0.0",
+  "description": "A custom monitoring setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wraithan/raytube.git"
+  },
+  "keywords": [
+    "monitoring",
+    "alert",
+    "graph"
+  ],
+  "author": "Wraithan <xwraithanx@gmail.com> (https://github.com/wraithan)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wraithan/raytube/issues"
+  },
+  "homepage": "https://github.com/wraithan/raytube",
+  "dependencies": {
+    "cli-color": "^0.3.2",
+    "hapi": "^4.1.0",
+    "pg": "^3.3.0",
+    "routes": "^1.1.0",
+    "safe-routes-match": "^1.0.0",
+    "status-log": "^1.0.0"
+  }
+}
